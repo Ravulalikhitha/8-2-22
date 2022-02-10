@@ -19,7 +19,9 @@ if s1>=35 and s2>=35 and s3>=35 and S4>=35 and S5>=35 and S6>=35:
    print('student passed')
 
 else: 
-  print('student failed')
+  print('student failed') 
+
+Output:
 
 
 enter the student number 12
