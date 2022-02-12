@@ -1,0 +1,29 @@
+cname=input('enter name:')
+cphno=int(input('enter phone no:'))
+rice=100
+sugar=50
+moongdal=45
+salt=31
+oil=150
+rq=int(input('enter no. of rice packets'))
+sq=int(input('enter no. of sugar packets'))
+mq=int(input('enter no. of moongdal packets'))
+sq=int(input('enter no. of salt packets'))
+oq=int(input('enter no. of oil packets'))
+bill=(rice*rq+sugar*sq+moongdal*mq+salt*sq+oil*oq)
+if bill>5000:
+    dis=5000*10/100
+elif bill>4000:
+    dis=4000*8/100
+elif bill>3000:
+    dis=3000*5/100
+elif bill>2000:
+    dis=2000*3/100
+elif bill>1000:
+    dis=1000*2/100
+else:
+    print('no discount')
+print('bill',bill)
+print('discount',dis)
+mainbill=bill-dis
+print('mainbill',mainbill)
