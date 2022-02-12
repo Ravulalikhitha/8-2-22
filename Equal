@@ -1,0 +1,8 @@
+a=int(input())
+b=int(input())
+if a==b:
+    print('equal')
+elif a!=b and a>b:
+    print('both are not equal, a is greater than b')
+else:
+    print('both are not equal,b is greater than b')
